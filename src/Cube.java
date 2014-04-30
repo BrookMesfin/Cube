@@ -11,7 +11,7 @@ public class Cube {
 		ShapeJPanel shapeJPanel = new ShapeJPanel();
 		frame.add( shapeJPanel );
 		frame.setBackground( Color.WHITE);
-		frame.setSize(315, 350);
+		frame.setSize(620, 660);
 		frame.setVisible( true );
 		
 
