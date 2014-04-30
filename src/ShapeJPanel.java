@@ -43,14 +43,15 @@ public class ShapeJPanel extends JPanel {
 
 	cube.closePath();
 	
-	g2d.translate( 400, 400 );
+	g2d.translate( 300, 300 );
 	
 
-	for (int count = 1; count <= 20; count++) {
-		g2d.rotate(Math.PI / 10.0);
+	for (int count = 1; count <= 40; count++) {
+		g2d.rotate(Math.PI / 20.0);
 		
 		g2d.setColor(new Color( random.nextInt( 256 ), 
 				random.nextInt( 256 ), random.nextInt( 256)));
+		g2d.fill ( cube );
 		g2d.draw( cube );	
 		}
 	g2d.draw( cube );
